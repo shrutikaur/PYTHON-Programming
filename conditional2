@@ -1,0 +1,12 @@
+username="ManpreetKaur"
+print(len(username))
+if(len(username)<=10):
+    print("Username contains less than 10 characters.")
+else:
+    print("Username contains more than 10 characters.")
+
+text=input("Enter your text:")
+if 'manno' in text.lower():
+    print("Yes,manno is present")
+else:
+    print("Manno is not present")

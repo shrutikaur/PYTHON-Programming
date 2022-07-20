@@ -1,0 +1,8 @@
+mySet={1,34,45}
+mySet.add(55)
+print(mySet)
+print(len(mySet))
+mySet.remove(34)
+mySet.add("1")
+print(mySet.pop())
+print(mySet)

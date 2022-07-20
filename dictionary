@@ -1,0 +1,8 @@
+oxford = {
+"lakdi":"wood",
+"kangi":"comb",
+"kursi":"chair",
+"kitaab":"book"
+}
+key = input("Enter the key\n")
+print("The value corresponding to your key is: ",oxford.get(key))

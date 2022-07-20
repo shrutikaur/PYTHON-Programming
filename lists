@@ -1,0 +1,9 @@
+l1=['manpreet',3.14,54,34.0000]
+print(l1)
+l1[0]=999
+l1.pop() #removes last element of the list
+l1.append('bungai') #adds a element to the last of list
+l1.insert(3,895)
+print(l1)
+#l1.reverse()
+#print(l1)

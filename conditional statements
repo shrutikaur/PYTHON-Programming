@@ -1,0 +1,26 @@
+#age=int(input("Enter your age: "))
+#if(age>=18):
+ #   print("Yes")
+#else:
+  #  print("No")
+
+from lib2to3.pgen2.token import GREATER
+
+
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+c=int(input("Enter the third number: "))
+d=int(input("Enter the fourth number: "))
+numbers={a,b,c,d}
+print(numbers)
+if(a > b and a > d) :
+    print("a is greater")  
+elif(b > c) :
+    print("b is greater")
+elif(c > d) :
+    print("c is greater")
+elif(d > b) :
+    print("d is greater")
+else :
+    print("done")
+
